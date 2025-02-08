@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хамза Есенжанов – «Жайын ілерде»</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        nav {
+            background: #2a5298;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .block {
+            padding: 50px;
+            margin: 20px auto;
+            width: 80%;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #f1c40f;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        .rating {
+            direction: rtl;
+            text-align: left;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 25px;
+            color: grey;
+            cursor: pointer;
+        }
+        .rating input:checked ~ label {
+            color: gold;
+        }
+        .comment-box {
+            margin-top: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3c72;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Хамза Есенжановтың «Жайын ілерде» әңгімесіндегі әке концептісі</h1>
+        <p>Әдебиеттегі әке бейнесі, ұрпақ тәрбиесі және жазушы мұрасы</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Өмірбаяны</a></li>
+            <li><a href="#works">Шығармалары</a></li>
+            <li><a href="#family">Шығармашылығы</a></li>
+            <li><a href="#story">«Жайын ілерде»</a></li>
+            <li><a href="#research">Менің зерттеуім</a></li>
+            <li><a href="#feedback">Пікір қалдыру</a></li>
+        </ul>
+    </nav>
+
+    <section id="about" class="block">
+        <h2>Хамза Есенжановтың Өмірбаяны</h2>
+        <p>Хамза Ихсанұлы Есенжанов (1908–1974) – қазақ әдебиетінің көрнекті қаламгері. Ол Батыс Қазақстан облысы, Ақжайық ауданында дүниеге келген. Жас кезінен білімге құштар болған Хамза алғашқы оқуын зоотехникалық-малдәрігерлік техникумда бастап, кейін ҚазПИ-ді тәмамдады. Сондай-ақ Ленинградтағы Мемлекеттік өнертану институтында аспирантурада білімін жалғастырды.
+Есенжанов шығармашылық пен ғылымды қатар алып жүріп, түрлі жауапты қызметтер атқарды. Ол Қазақстан Жазушылар одағының жауапты хатшысы, КСРО Ғылым академиясы Қазақ филиалының әдебиет және фольклор секторының меңгерушісі қызметтерінде болды. Сонымен қатар Қазақ мемлекеттік филармониясы мен Опера және балет театрын басқарды, ҚазПИ-де орыс әдебиетінен дәріс оқыды.
+Оның қаламынан туған алғашқы әңгімелері мен пьесалары 1930-жылдары жарық көрді. Алайда 1938 жылы саяси қуғын-сүргінге ұшырап, 20 жылға жуық азапты жылдарды бастан өткерді. Тек 1956 жылы толықтай ақталып, шығармашылық жолын қайта жандандырды.
+Хамза Есенжанов – қазақ әдебиетіне елеулі үлес қосқан жазушы, оның еңбектері тарихи шындық пен көркемдік тереңдікті үйлестіре білгендігімен құнды.</p>
+<img src="data:image/jpeg;base64,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" alt="">
+    </section>
+
+    <section id="works" class="block">
+        <h2>Шығармалары</h2>
+        <table>
+            <tr><th>атауы</th><th>Жылы</th></tr>
+            <tr><td>«Ақжайық»</td><td>1957-1965</td></tr>
+            <tr><td>«Жайын ілерде»</td><td>1966</td></tr>
+            <tr><td>«Көп жыл өткен соң»</td><td>1970</td></tr>
+            <tr><td>«Азамат жолы»</td><td>1972</td></tr>
+            <tr><td>«Ағайынды Жүнісовтер»</td><td>1970</td></tr>
+            <tr><td>«Күшке – күш</td><td></td></tr>
+           <tr><td>«Жер шарында» (пьеса)</td><td></td></tr>
+<tr><td>«Қызыл құмақ»</td><td></td></tr>
+<tr><td>«Үлеңтінің жағасында» (пьеса)</td><td></td></tr>
+</table>
+
+ <h2>Аудармалары</h2>
+        <table>
+            <tr><th>атауы</th></tr>
+            <tr><td>«М. Шолохов – «Тынық Дон» (1 және 4-кітаптары)»</td></tr>
+            <tr><td>«И. Тургенев – «Рудин»</td></tr>
+<tr><td>И. Шухов – «Үшпенділік»</td></tr>
+<tr><td>А. Пушкин – «Дубровский»</td></tr>
+
+</table>
+
+
+
+    </section>
+
+    <section id="family" class="block">
+        <h2>Шығармашылығы</h2>
+        <p>Хамза Есенжанов – қазақ әдебиетінің тарихи-тағдырлы кезеңдерін бейнелеген қаламгер. Оның басты шығармасы – «Ақ Жайық» трилогиясы (1957, 1959, 1965), онда Батыс Қазақстандағы отарлық езгіге қарсы халық күресі кеңінен суреттеледі. Жазушы бұл еңбегінде күрескер тұлғалардың көркем бейнесін (Хакім, Әлібек, Әділбек, Мүнариа, Шолпан, Нұрым) жасап, нақты тарихи кейіпкерлердің (Дмитриев, Әйтиев, Қаратаев, Белан) өмір жолын шебер өрнектеген.
+Трилогияның заңды жалғасы – «Көп жыл өткен соң» (1963) және «Ағайынды Жүнісовтер» (1970) романдары. Бұл шығармаларда жаңа қоғам құру жолындағы күрес пен адамның азамат ретінде қалыптасуы бейнеленген. Жалпы, «Ақ Жайық» трилогиясы мен «Көп жыл өткен соң» роман-дилогиясы бес кітаптан тұратын тұтас эпопея іспетті.
+Жазушының соңғы жылдары жазған «Қарт қазақ», «Жайын ілерде», «Жар» сияқты әңгімелері мен очерктері де әдебиет сүйер қауымға белгілі. Оның еңбектері 1978–1981 жылдары алты томдық жинақ болып жарық көрді.
+Хамза Есенжанов аударма саласында да еңбек сіңірді. Ол М. Шолоховтың «Тынық Дон», И. Тургеневтің «Рудин», А. Пушкиннің «Дубровский» сияқты шығармаларын қазақ тіліне тәржімалады. Сонымен қатар бастауыш және орта мектептерге арналған оқулықтар жазды. Оның әдеби еңбектері жоғары бағаланып, 1967 жылы Қазақстан Мемлекеттік сыйлығының лауреаты атанды.</p>
+<img src="https://zhaikpress.kz/wp-content/oraloniri/news/img/2023/05/image_l.png" alt=="">
+    </section>
+
+    <section id="story" class="block">
+        <h2>«Жайын ілерде» әңгімесі</h2>
+        <p>«Жайын ілерде» әңгімесі – Хамза Есенжановтың балалық шағындағы жарқын естеліктерінің бірі. Жазушы бұл шығармасында әкесімен бірге балық аулауға барған күнін суреттейді. Әңгіме «Мен томпаңдап папамнан қалмай келем» деген сөйлеммен басталып, бала көңілмен әкесінің әр қимылын мұқият бақылағаны аңғарылады.
+Балық аулау оңай кәсіп емес, ол шапшаңдық пен шеберлікті талап етеді. Осыны бала Хамза әкесінің әрекеттері арқылы түсініп, балықшылықтың қызығы мен қиыншылығын сезінеді. Жазушы әңгімеде тек табиғат көріністерін немесе кәсіпті емес, баланың әкесіне деген шексіз сүйіспеншілігін де шебер жеткізеді.
+Бұл шығарма – Есенжановтың әкесіне деген сағынышы мен құрметінің көрінісі. Ол әңгімесін 1966 жылы жазса да, онда бейнеленген оқиғалар 52 жыл бұрынғы балалық шағынан қалған ұмытылмас сәттер екені байқалады. Әкесінің өмірден ерте өткенін ескерсек, жазушының бұл шығармасы – әке бейнесін мәңгілікке сақтап қалуға деген ұмтылысы деуге болады.</p>
+    </section>
+
+    <section id="research" class="block">
+        <h2>Менің зерттеуім</h2>
+        <p>Әке бейнесі – адам өмірінің ең терең мәні мен мағынасын айқындайтын ұлы ұғым. Бұл зерттеу барысында көркем әдебиетте сомдалған әкелер бейнесін саралай отырып, олардың болмысын, тәрбиелік маңызын, қоғамдағы орнын жан-жақты қарастырдым.
+Жоба басында қазіргі қоғамдағы әкенің рөліне шолу жасалып, статистикалық мәліметтер келтірілді. Осыдан-ақ бүгінгі таңда әке тәрбиесінің әлсіреуі, толық емес отбасылар санының артуы – маңызды әлеуметтік мәселе екені байқалды. Осы олқылықтың орнын толтыру үшін «Әкелер галереясы» атты электронды платформа жасалды. Бұл жоба қазақ әдебиетінің алтын қорындағы әке бейнесін насихаттауға, жас ұрпақтың санасына әкенің асыл қасиеттерін сіңіруге арналған.
+Әдебиет әлемінде әке бейнесінің алатын орны ерекше. Хамза Есенжановтың «Жайын ілерде» әңгімесі – жазушының балалық шағы мен әкесіне деген сағынышын бейнелейтін туынды. Шағын ғана оқиғада әке мен баланың арасындағы байланыс, әкенің бала өміріндегі биік тұлғасы шынайы суреттелген. Осы зерттеу барысында әңгімеде суреттелген Аңқаты өзеніне, Өлеңті өзеніне, жазушының туған жеріне барып, шығарманың шынайылығын көзбен көру мүмкіндігі туды.
+Әдебиеттегі әкелер бейнесі тек Хамза Есенжанов шығармашылығымен шектелмейді. Мұхтар Әуезовтің «Абай жолындағы» Құнанбайы, Бауыржан Момышұлының «Ұшқан ұясындағы» Момышы, Сапарғали Бегалиннің «Шоқан асуларындағы» Шыңғысы – бәрі де өз ұлының тағдырында шешуші рөл атқарған тұлғалар. Бұл кейіпкерлер арқылы қазақ қоғамындағы әке институтының мызғымас құндылық екенін түсінуге болады.
+Қорытындылай келе, бұл зерттеу көркем әдебиеттегі әке бейнесінің мәнін ашып қана қоймай, бүгінгі жас ұрпақтың әкеге деген құрметін арттыруға бағытталған. Әке – тек отбасының асыраушысы ғана емес, ол – тұлға қалыптастырушы, болашақтың негізін қалаушы. Сондықтан әкелер бейнесін насихаттау, оларды өнеге ету – ұлт болашағы үшін маңызды қадам.</p>
+<img src="D:\User Data\Desktop\о.png" alt=="" width="700" height="800">
+
+    </section>
+
+    <section id="feedback" class="block">
+        <h2>Сайтқа кіргендер саны: <span id="visitorCount">0</span></h2>
+        <h3>Өз пікіріңізді және рейтингіңізді қалдырыңыз</h3>
+        <input type="text" id="name" placeholder="Атыңыз">
+        <textarea id="comment" placeholder="Пікіріңізді жазыңыз"></textarea>
+        
+        <div class="rating">
+            <input type="radio" name="rating" value="5" id="star5"><label for="star5">★</label>
+            <input type="radio" name="rating" value="4" id="star4"><label for="star4">★</label>
+            <input type="radio" name="rating" value="3" id="star3"><label for="star3">★</label>
+            <input type="radio" name="rating" value="2" id="star2"><label for="star2">★</label>
+            <input type="radio" name="rating" value="1" id="star1"><label for="star1">★</label>
+        </div>
+
+        <button onclick="addComment()">Жіберу</button>
+        <div id="comments"></div>
+    </section>
+
+    <script>
+        if (localStorage.getItem("visitorCount")) {
+            let count = parseInt(localStorage.getItem("visitorCount"));
+            count++;
+            localStorage.setItem("visitorCount", count);
+            document.getElementById("visitorCount").innerText = count;
+        } else {
+            localStorage.setItem("visitorCount", 1);
+            document.getElementById("visitorCount").innerText = 1;
+        }
+
+        function addComment() {
+            let name = document.getElementById("name").value;
+            let comment = document.getElementById("comment").value;
+            alert(name + " пікір қалдырды: " + comment);
+        }
+    </script>
+
+</body>
+</html>
